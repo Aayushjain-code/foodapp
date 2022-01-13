@@ -1,14 +1,19 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import SearchBar from '../components/SearchBar'
 
 const SearchScreen = ( {navigation }) => {
     return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>search</Text>
+        <View style={styles.body}>
+            <SearchBar/>
         </View>
     )
 }
 
 export default SearchScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    body: {
+        
+    },
+})
